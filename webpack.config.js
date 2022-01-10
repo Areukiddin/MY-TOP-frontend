@@ -115,7 +115,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "../", "backend-nest", "index.html"),
+      template: path.join(__dirname, "../", "backend", "index.html"),
     }),
     new MiniCssExtractPlugin({
       filename: "styles.css",
