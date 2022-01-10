@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "declaration": false,
+    "lib": ["es7", "dom", "es2017.object", "ESNext", "DOM.Iterable"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "baseUrl": "app",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true
+  },
+  "include": ["app"],
+  "exclude": ["**/*.spec.ts", "node_modules"],
+  "compileOnSave": false
+}
